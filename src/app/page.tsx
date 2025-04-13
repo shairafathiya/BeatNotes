@@ -13,7 +13,7 @@ export default function Home() {
           <a href="#" className="hover:underline">Notes</a>
           <a href="#" className="hover:underline">Events</a>
         </div>
-        <div className="text-white">Username</div>
+        <div className="text-white">Shaira</div>
       </nav>
 
       {/* Main Section */}
