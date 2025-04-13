@@ -9,7 +9,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="bg-[#716c60] text-white flex justify-between items-center px-6 py-4 font-serif text-xl">
         <div className="space-x-4">
-          <a href="../login" className="hover:underline">Home</a>
+          <a href="#" className="hover:underline">Home</a>
           <a href="#" className="hover:underline">Notes</a>
           <a href="#" className="hover:underline">Events</a>
         </div>
@@ -19,28 +19,43 @@ export default function Home() {
       {/* Main Section */}
       <div className="flex flex-col items-center justify-center p-6 text-center">
         <div className="flex items-center gap-4 mt-10">
-          <div className="text-[80px]">🎼</div>
-          <h1 className="text-5xl font-bold tracking-widest">BEAT<br /><span className="text-6xl">NOTES</span></h1>
-          <div className="text-[80px]">🔊</div>
+          
+          <h1 className="text-[100px] font-bold tracking-widest">
+          <img src="/image/disc.svg" alt="Disc Icon" className="w-35 h-45 inline-block" /> BEAT<br /><span className="text-[120px]">NOTES</span></h1>
+          
         </div>
-
+        <h6 className="text-[35px] font-light font-serif">Welcome to our project!</h6>
+        <p className="text-[20px] font-serif">A platform for musicians to document their notes and events.</p>
+        <p className="text-[20px] font-serif">Let's make music together!</p>
+        
         {/* Icons Section */}
+        
         <div className="flex gap-10 mt-16">
           <div className="bg-[#8a7d6c] p-6 rounded-xl text-white flex flex-col items-center w-40">
             <div className="text-4xl">🎵</div>
-            <span className="mt-2 text-lg font-serif">Notes</span>
+            <a href="../note" className="hover:underline text-lg font-serif">Notes</a>
           </div>
           <div className="bg-[#5f3d3d] p-6 rounded-xl text-white flex flex-col items-center w-40">
             <div className="text-4xl">💿</div>
-            <span className="mt-2 text-lg font-serif">Music</span>
+            <a href="../music" className="hover:underline text-lg font-serif">Music</a>
           </div>
           <div className="bg-[#b37840] p-6 rounded-xl text-white flex flex-col items-center w-40">
             <div className="text-4xl">✴️</div>
-            <span className="mt-2 text-lg font-serif">Events</span>
+            <a href="../event" className="hover:underline text-lg font-serif">Event</a>
+            
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+        <footer className="p-4 bg-black items-center gap-4 mt-10">
+            <div className="flex justify-center text-white text-sm font-serif">
+                <p>Made by Shaira fathiya & Nur Shadiqah</p>
+            </div>
+            <div className="flex justify-center text-white text-sm font-serif">
+                <p>@2025</p>
+            </div>
+        </footer>
+     </div>
+    
   );
 }
 
