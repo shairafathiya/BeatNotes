@@ -9,7 +9,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="bg-[#716c60] text-white flex justify-between items-center px-6 py-4 font-serif text-xl">
         <div className="space-x-4">
-          <a href="#" className="hover:underline">Home</a>
+          <a href="../login" className="hover:underline">Home</a>
           <a href="#" className="hover:underline">Notes</a>
           <a href="#" className="hover:underline">Events</a>
         </div>
@@ -25,12 +25,18 @@ export default function Home() {
         </div>
 
         {/* Icons Section */}
-        <div className="flex gap-10  mt-16 ">
+        <div className="flex gap-10 mt-16">
           <div className="bg-[#8a7d6c] p-6 rounded-xl text-white flex flex-col items-center w-40">
-            <span className=" mt-2 text-lg font-serif">Register</span>
+            <div className="text-4xl">🎵</div>
+            <span className="mt-2 text-lg font-serif">Notes</span>
+          </div>
+          <div className="bg-[#5f3d3d] p-6 rounded-xl text-white flex flex-col items-center w-40">
+            <div className="text-4xl">💿</div>
+            <span className="mt-2 text-lg font-serif">Music</span>
           </div>
           <div className="bg-[#b37840] p-6 rounded-xl text-white flex flex-col items-center w-40">
-            <a href="../login" className="hover:underline text-lg font-serif">Login</a>
+            <div className="text-4xl">✴️</div>
+            <span className="mt-2 text-lg font-serif">Events</span>
           </div>
         </div>
       </div>
