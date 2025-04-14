@@ -60,7 +60,7 @@ export default function NotePage() {
   return (
     <div className=" bg-[#faf6ee]  flex flex-col">
     <div className="p-8 max-w-4xl mx-auto space-y-8 text-[#3b362f] bg-[#faf6ee] min-h-screen">
-      <h1 className="text-3xl font-bold">🎶 Catatan Musisi</h1>
+      <h1 className="text-3xl font-bold">🎶  Notes </h1>
 
       {/* FORM */}
       <div className="bg-white p-6 rounded-xl shadow space-y-4">
