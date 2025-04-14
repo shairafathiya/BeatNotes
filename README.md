@@ -1,3 +1,10 @@
+###BeatNotes --Web dokumentasi Personal untuk para musisi
+created by: 
+Shaira Fathiya - 2308107010027
+Nur Shadiqah - 2308107010061
+
+Project ini menggunakan framework Next.js , untuk menjalankan project dapat dilihat pada dokumentasi dibawah.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
